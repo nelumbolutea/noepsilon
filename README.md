@@ -6,7 +6,9 @@
 #R https://www.r-project.org/#
 
 ##1.1 Input observed copy numbers (e.g. column 1~28) 
+
 ##and expected copy numbers (e.g. column 29~56) 
+
 ##of each OG (row)#
 
 setwd("/YourWorkFolder/")
