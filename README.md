@@ -1,5 +1,6 @@
 
 ################r dosage sensitivity########################
+
 #1. Infer dosage sensitivity of an OG by Pearson correlation (R)#
 #R https://www.r-project.org/#
 
@@ -42,6 +43,7 @@ write.csv(results_df, "dosage.obs.exp,correlation_results.csv")
 
 
 ################WGD by Gene tree and Species tree Reconcilation########################
+
 #2. Phylogenetic placement of duplication events by gene tree and species tree reconciliation (Linux)#
 #Notung https://www.cs.cmu.edu/~durand/notung/ #
 
@@ -104,6 +106,7 @@ grep -P 'atrSC_\S*\t\S*atrSC_' z_OGfinal_iq_nobs/z_all.nodes >z_atrSC.nodes
 
 
 ################WGD by WGDgc estimation########################
+
 #3. Gene-count-based estimation of WGD retention rate (q), likelihood of a WGD model (R language)#
 #WGDgc, manual in https://github.com/cecileane/WGDgc/tree/master/man#
  
