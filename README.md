@@ -13,8 +13,7 @@ results <- matrix(NA, nrow = nrow(data), ncol = 2)
 colnames(results) <- c("Pearson_r", "p_value")  
   
 ##1.3 Loop through each row  
-for (i in 1:nrow(data)) {  
-  # Extract the relevant columns for this row  
+for (i in 1:nrow(data)) {    # Extract the relevant columns for this row  
   x <- as.numeric(data[i, 1:28]) # 
   y <- as.numeric(data[i, 29:56]) # 
      
